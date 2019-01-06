@@ -21,15 +21,17 @@ Do you think it just because of that older people less exposed to IT products?
 Maybe yes in some sense, but mainly because of **unfriendly user interfaces for the elderly**.
 Even their physical aspects are ignored.
 
-<img src="https://www.youtube.com/watch?v=1BzqctRGgaU&t=78s">
+
+<a href="https://youtu.be/1BzqctRGgaU" target="_blank"><img src="http://img.youtube.com/vi/1BzqctRGgaU/0.jpg" width="360" height="240" border="10"/></a>
+
 Look at this lady who can not order the desired menu, because font size is too small for her.
 
 ## Code Overview
-- docs/
-- static/
-- templates/
-- app.py   
-
+- webpage/
+    - static/
+    - templates/
+    - app.py   
+- 
 
 ### How it works
 
