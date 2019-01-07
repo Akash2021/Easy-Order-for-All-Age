@@ -1,9 +1,8 @@
 # Easy Order for everyone
 
 <img src="">
-Object to overcome unfriendly user interfaces for the elderly. 
-Estimates age from a user's face image,
-and provides different user interface that perfect fit  for them.
+This is a simple framework provide different user interface by age group.
+It estimates age from a user's face image.
 
 
 ## Easy User Interface for all ages.
@@ -26,6 +25,9 @@ Even their physical aspects are ignored.
 
 Look at this lady who can not order the desired menu, because font size is too small for her.
 
+Providing a suitable UI for each age group will contribute to improving user experience and preventing digital alienation against certain ages.
+
+
 ## Code Overview
 - webpage/
     - static/
@@ -33,11 +35,25 @@ Look at this lady who can not order the desired menu, because font size is too s
     - app.py   
 - 
 
-### How it works
+## Progress
+
+- build torch custom dataset (progress)
+- train model
+- build webpage (progress)
+- publish it
+- add function with live steam web cam
+
+## How it works
 
 first detects the face in image
 and then extracts the CNN predi
 ctions 
+
+## Datasets labeled by age
+- [IMDB-WIKI](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/) 
+- [FGnet](http://www-prima.inrialpes.fr/FGnet/html/benchmarks.html) 
+- [UTKFace](https://susanqq.github.io/UTKFace/) `consists of 20k+ face images in the wild (only single face in one image)` `labelled by age, gender, and ethnicity`
+- [Adience collection of unfiltered faces](https://talhassner.github.io/home/projects/Adience/Adience-data.html)`Total number of photos: 26,580` `Number of age groups / labels: 8 (0-2, 4-6, 8-13, 15-20, 25-32, 38-43, 48-53, 60-)`
 
 ## Citation
     
