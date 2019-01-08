@@ -37,8 +37,8 @@ Providing a suitable UI for each age group will contribute to improving user exp
 
 ## Progress
 
-- build torch custom dataset (progress)
-- train model
+- [build torch custom dataset](https://github.com/minh364/Easy-Order-for-All-Age/blob/master/docs/Train_with_CustomDataset.ipynb)
+- train model(progress)
 - build webpage (progress)
 - publish it
 - add function with live steam web cam
