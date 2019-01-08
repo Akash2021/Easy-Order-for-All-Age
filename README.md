@@ -1,6 +1,6 @@
 # Easy Order for everyone
 
-<img src="">
+<img src="https://github.com/minh364/Easy-Order-for-All-Age/blob/master/assets/0.jpg">
 This is a simple framework provide different user interface by age group.
 It estimates age from a user's face image.
 
@@ -29,25 +29,30 @@ Providing a suitable UI for each age group will contribute to improving user exp
 
 
 ## Code Overview
-- webpage/
-    - static/
-    - templates/
-    - app.py   
-- 
+- **docs/** tutorials
+- **webpage/** demo webpage
+    - **static/** html
+    - **templates/** css
+    - **app.py** 
+- **create_db.py** to make custom dataset form imdb-wiki
+- **utils.py** 
 
 ## Progress
 
-- [build torch custom dataset](https://github.com/minh364/Easy-Order-for-All-Age/blob/master/docs/Train_with_CustomDataset.ipynb)
-- train model(progress)
-- build webpage (progress)
-- publish it
-- add function with live steam web cam
+- [build torch custom dataset](https://github.com/minh364/Easy-Order-for-All-Age/blob/master/docs/Train_with_CustomDataset.ipynb) `@Hong Min`
+- train model (on progress)
+- build webpage (on progress) `@Dustin Gogoll` `@Hong Min`
+- publish it on hiroku (on progress) `@Akash.py`
+- ~~add function with live steam web cam~~
 
 ## How it works
 
-first detects the face in image
-and then extracts the CNN predi
-ctions 
+~~first detects the face in image~~
+1. Predict age from face image by Convolution Neural Networks.
+    - considered age estimation as classification problem
+    - targets are from 0 to 101 that represent age.
+2. Provide suitable UI according to Age group.
+    - e.g. contents size, 
 
 ## Datasets labeled by age
 - [IMDB-WIKI](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/) 
