@@ -13,9 +13,9 @@ def upload_file():
     if request.method == 'POST':
         age = 50
         prob = 0.0
-        # if 'file' not in request.files:
-        #     print("file not uploaded")
-        #     return render_template('index.html', value='please,upload your face image.')
+        if 'file' not in request.files:
+            print("file not uploaded")
+            return render_template('index.html', value='please,upload your face image.')
         file = request.files['file']
         image = file.read()
         tensor = get_tensor(image)
