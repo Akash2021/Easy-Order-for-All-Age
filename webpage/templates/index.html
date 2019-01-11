@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <title>Easy Order for All Age</title>
+</head>
+<body>
+<div>
+    <div>
+
+        <div>
+            <!-- before upload image -->
+            {{value}}
+        </div>
+
+        <div style="font-size: {{fontsize}}px">
+            <!-- after upload image -->
+            {{result}}
+        </div>
+
+    </div>
+    <div>
+        <div style="border-style: solid; border-color: turquoise; width: 300px; height: 300px">
+            <!-- image uploaded here / fix it on right side -->
+        </div>
+        <form enctype="multipart/form-data" method="post" style="font-size: 15px">
+            <input style="font-size:{{button_size}}" type="file" name="file">
+            <input style="font-size:{{button_size}}" type="submit" value="upload">
+        </form>
+    </div>
+</div>
+</body>
+</html>

@@ -1,11 +1,11 @@
-# Easy Order for everyone
+# Easy Order for all ages.
 
 <img src="https://github.com/minh364/Easy-Order-for-All-Age/blob/master/assets/0.jpg">
 This is a simple framework provide different user interface by age group.
 It estimates age from a user's face image.
 
 
-## Easy User Interface for all ages.
+## Easy User Interface for everyone.
 
 When we buy some stuff, we are frequently encountered web user interface.
 for example, kiosk ordering without human cashier continue to spread, to make their workflow smarter and reduce labor costs.
@@ -31,8 +31,8 @@ Providing a suitable UI for each age group will contribute to improving user exp
 ## Code Overview
 - **docs/** tutorials
 - **webpage/** demo webpage
-    - **static/** html
-    - **templates/** css
+    - **static/** 
+    - **templates/** html
     - **app.py** 
 - **create_db.py** to make custom dataset form imdb-wiki
 - **utils.py** 
@@ -41,7 +41,7 @@ Providing a suitable UI for each age group will contribute to improving user exp
 
 - [build torch custom dataset](https://github.com/minh364/Easy-Order-for-All-Age/blob/master/docs/Train_with_CustomDataset.ipynb) `@Hong Min`
 - train model (on progress)
-- build webpage (on progress) `@Dustin Gogoll` `@Hong Min`
+- build webpage (on progress) `FrontEnd - @Dustin Gogoll` `BackEnd - @Hong Min`
 - publish it on hiroku (on progress) `@Akash.py`
 - ~~add function with live steam web cam~~
 
@@ -52,7 +52,7 @@ Providing a suitable UI for each age group will contribute to improving user exp
     - considered age estimation as classification problem
     - targets are from 0 to 101 that represent age.
 2. Provide suitable UI according to Age group.
-    - e.g. contents size, 
+    - e.g. contents size, way of talking, emojis .. 
 
 ## Datasets labeled by age
 - [IMDB-WIKI](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/) 
